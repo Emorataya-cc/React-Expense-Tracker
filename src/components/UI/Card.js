@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card(props)
+const Card = (props) =>
 {
     // Whitespace is needed for strinf manipulation. I forgot.
     const classes = 'card ' + props.className;
